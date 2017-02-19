@@ -1,24 +1,24 @@
 {
-  "title": "Black Lion",
-  "subtitle": "Prototype doc for Black Lion project",
+  "title": "Project W",
+  "subtitle": "Documentation for Project W",
   "introduction": 
   [
     {
-      "title": "Black Lion Project",
-      "url": "blacklion.corp.adobe.com",
-      "introduction": "Rebooting the Photoshop Experience. For the next generation of inputs, content and users."
+      "title": "Project W",
+      "url": "yanlinghe.com",
+      "introduction": "The introduction and link for Project W. An easy and fast way to track work and index any documents related."
     },
 
     {
-      "title": "Prototyping Doc",
-      "url": "blacklion.corp.adobe.com",
-      "introduction": "Recording design, implementation details, roadmaps and learning references while building the prototype of Black Lion along the way."
+      "title": "Project Documents",
+      "url": "/",
+      "introduction": "The introduction of this webpage. The documentation website for recording details of Project X along the way. "
     }
   ],
   "section": 
   [
     {
-      "title": "Layout",
+      "title": "Home Page",
       "design_intro": "Layout design of photoshop user experience: tool bar design, layer bar design and control shortcuts design, including details, including images, videos animations, sketches and references of design inspirations.",
       "design_img_src": "",
       "design_url": "/layout_design",
@@ -30,7 +30,7 @@
     },
 
     {
-      "title": "Shortcut Work Flow",
+      "title": "Project Page",
       "design_intro": "Shortcut control panel work flow design, including images, videos animations and so on. References of design inspiration links.",
       "design_img_src": "",
       "design_url": "/shortcut_work_flow_design",
@@ -42,7 +42,7 @@
     },
 
     {
-      "title": "Blob Control",
+      "title": "Project Section Page",
       "design_intro": "Blob control design details, including images, videos animations and so on. References of design inspiration links.",
       "design_img_src": "",
       "design_url": "/blob_control_design",
@@ -51,18 +51,6 @@
       "implementation_img_src": "./asset/img/blob-implementation.png",
       "implementation_url": "/blob_control_implementation",
       "implementation_json": "/blob_control_implementation.json"
-    },
-
-    {
-      "title": "Brush",
-      "design_intro": "Brush design details, including images, videos animations and so on. References of design inspiration links.",
-      "design_img_src": "",
-      "design_url": "/brush_design",
-      "design_json": "/brush_design.json",
-      "implementation_intro": "Brush implementation details, including code structure, rendering details, sample code, screenshots, video recordings and so on. References of technical learning links.",
-      "implementation_img_src": "",
-      "implementation_url": "/brush_implementation",
-      "implementation_json": "/brush_implementation.json"
     }
   ]
 }
