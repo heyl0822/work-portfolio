@@ -590,70 +590,58 @@ exports.default = _react2.default.createClass({
 
 },{"./Navbar.jsx":5,"react":241}],9:[function(require,module,exports){
 module.exports={
-  "title": "Black Lion",
-  "subtitle": "Prototype doc for Black Lion project",
+  "title": "Project W",
+  "subtitle": "Documentation for Project W",
   "introduction": 
   [
     {
-      "title": "Black Lion Project",
-      "url": "blacklion.corp.adobe.com",
-      "introduction": "Rebooting the Photoshop Experience. For the next generation of inputs, content and users."
+      "title": "Project W",
+      "url": "yanlinghe.com",
+      "introduction": "The introduction and link for Project W. An easy and fast way to track work and index any documents related."
     },
 
     {
-      "title": "Prototyping Doc",
-      "url": "blacklion.corp.adobe.com",
-      "introduction": "Recording design, implementation details, roadmaps and learning references while building the prototype of Black Lion along the way."
+      "title": "Project Documents",
+      "url": "/",
+      "introduction": "The introduction of this webpage. The documentation website for recording details of Project X along the way. "
     }
   ],
   "section": 
   [
     {
-      "title": "Layout",
-      "design_intro": "Layout design of photoshop user experience: tool bar design, layer bar design and control shortcuts design, including details, including images, videos animations, sketches and references of design inspirations.",
+      "title": "Home Page",
+      "design_intro": "Design of project W: .",
       "design_img_src": "",
-      "design_url": "/layout_design",
-      "design_json": "/layout_design.json",
-      "implementation_intro": "Layout implementation details, including code structure, layout design details, sample code, screenshots, demo video recordings and so on. References of implementation learning links.",
+      "design_url": "/home_page_design",
+      "design_json": "/home_page_design.json",
+      "implementation_intro": "Implementation details of project W home page.",
       "implementation_img_src": "",
-      "implementation_url": "/layout_implementation",
-      "implementation_json": "/layout_implementation.json"
+      "implementation_url": "/home_page_implementation",
+      "implementation_json": "/home_page_implementation.json"
     },
 
     {
-      "title": "Shortcut Work Flow",
-      "design_intro": "Shortcut control panel work flow design, including images, videos animations and so on. References of design inspiration links.",
+      "title": "Project Page",
+      "design_intro": "Design details of project page .",
       "design_img_src": "",
-      "design_url": "/shortcut_work_flow_design",
-      "design_json": "/shortcut_work_flow_design.json",
-      "implementation_intro": "short cut work flow prototyping implementation details, including code structure, sample code, screenshots, demo video recordings and so on. References of implementation learning links.",
+      "design_url": "/project_page_design",
+      "design_json": "/project_page_design.json",
+      "implementation_intro": "Implementation details of project page.",
       "implementation_img_src": "",
-      "implementation_url": "/shortcut_work_flow_implementation",
-      "implementation_json": "/shortcut_work_flow_implementation.json"
+      "implementation_url": "/project_page_implementation",
+      "implementation_json": "/project_page_implementation.json"
     },
 
     {
-      "title": "Blob Control",
-      "design_intro": "Blob control design details, including images, videos animations and so on. References of design inspiration links.",
+      "title": "Project Section Page",
+      "design_intro": "Design details of project section page.",
       "design_img_src": "",
-      "design_url": "/blob_control_design",
-      "design_json": "/blob_control_design.json",
-      "implementation_intro": "Blob control prototyping implementation details, including code structure, rendering details, sample code, screenshots, video recordings and so on. References of implementation learning links.",
+      "design_url": "/project_section_design",
+      "design_json": "/project_section_design.json",
+      "implementation_intro": "Implementation details of project section page.",
       "implementation_img_src": "./asset/img/blob-implementation.png",
-      "implementation_url": "/blob_control_implementation",
-      "implementation_json": "/blob_control_implementation.json"
-    },
-
-    {
-      "title": "Brush",
-      "design_intro": "Brush design details, including images, videos animations and so on. References of design inspiration links.",
-      "design_img_src": "",
-      "design_url": "/brush_design",
-      "design_json": "/brush_design.json",
-      "implementation_intro": "Brush implementation details, including code structure, rendering details, sample code, screenshots, video recordings and so on. References of technical learning links.",
-      "implementation_img_src": "",
-      "implementation_url": "/brush_implementation",
-      "implementation_json": "/brush_implementation.json"
+      "implementation_url": "/project_section_implementation",
+      "implementation_json": "/project_section_implementation.json"
     }
   ]
 }
