@@ -578,11 +578,16 @@ exports.default = _react2.default.createClass({
         'div',
         { id: 'sidebar' },
         _react2.default.createElement(
-          'h1',
-          null,
+          'a',
+          { id: 'header-link', href: '#' },
           ' ',
-          this.props.title,
-          ' '
+          _react2.default.createElement(
+            'h1',
+            null,
+            ' ',
+            this.props.title,
+            ' '
+          )
         ),
         _react2.default.createElement(
           'h2',
