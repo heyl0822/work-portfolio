@@ -15,6 +15,22 @@ h1, h2, h3, p, li, a {
 	text-decoration: none;
 }
 
+#header-link:link {
+    color: black;
+}
+
+#header-link:visited {
+    color: black;
+}
+
+#header-link:hover {
+    color: black;
+}
+
+#header-link:active {
+    color: black;
+}
+
 h1 {
 	font-weight: 600;
 	font-size: 88px;
