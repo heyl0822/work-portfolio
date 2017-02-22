@@ -299,7 +299,11 @@ var SessionListImageRight = _react2.default.createClass({
             'More...'
           )
         ),
-        _react2.default.createElement('img', { className: 'main-session-image-right', src: this.props.imgSrc })
+        _react2.default.createElement(
+          _reactRouter.IndexLink,
+          { to: this.props.url },
+          _react2.default.createElement('img', { className: 'main-session-image-right', src: this.props.imgSrc })
+        )
       )
     );
   }
@@ -322,7 +326,11 @@ var SessionListImageLeft = _react2.default.createClass({
       _react2.default.createElement(
         'div',
         { className: 'main-session-list-detail' },
-        _react2.default.createElement('img', { className: 'main-session-image-left', src: this.props.imgSrc }),
+        _react2.default.createElement(
+          _reactRouter.IndexLink,
+          { to: this.props.url },
+          _react2.default.createElement('img', { className: 'main-session-image-left', src: this.props.imgSrc })
+        ),
         _react2.default.createElement(
           'div',
           { className: 'main-session-text-right' },
@@ -597,7 +605,7 @@ module.exports={
     {
       "title": "Project W",
       "url": "yanlinghe.com",
-      "introduction": "The introduction and link for Project W. An easy and fast way to track work and index any documents related."
+      "introduction": "The introduction and link for Project W. An easy and fast way to track my work and index any documents related."
     },
 
     {
@@ -610,36 +618,36 @@ module.exports={
   [
     {
       "title": "Home Page",
-      "design_intro": "Design of project W: .",
-      "design_img_src": "",
+      "design_intro": "A brief introduction about this section's design work. Design details of project W home page, including design ideas, how to use the home page and all related references about home page design.",
+      "design_img_src": "./asset/img/home_design.png",
       "design_url": "/home_page_design",
       "design_json": "/home_page_design.json",
-      "implementation_intro": "Implementation details of project W home page.",
-      "implementation_img_src": "",
+      "implementation_intro": "A brief introduction about this section's implementation work. Implementation details of project W home page, including implementation platform, tools, and all related references about home page design.",
+      "implementation_img_src": "./asset/img/home_implementation.png",
       "implementation_url": "/home_page_implementation",
       "implementation_json": "/home_page_implementation.json"
     },
 
     {
       "title": "Project Page",
-      "design_intro": "Design details of project page .",
-      "design_img_src": "",
+      "design_intro": "A brief introduction about this section's design work. Project page is designed for documenting each project's features and progress. Index page on the left and details on the right.",
+      "design_img_src": "./asset/img/page_design.jpg",
       "design_url": "/project_page_design",
       "design_json": "/project_page_design.json",
-      "implementation_intro": "Implementation details of project page.",
-      "implementation_img_src": "",
+      "implementation_intro": "A brief introduction about this section's implementation work. Using reactJS create webpage framework and interactions. Project details are all stored in asset as JSON, image or other format.",
+      "implementation_img_src": "./asset/img/page_implementation.jpg",
       "implementation_url": "/project_page_implementation",
       "implementation_json": "/project_page_implementation.json"
     },
 
     {
       "title": "Project Section Page",
-      "design_intro": "Design details of project section page.",
-      "design_img_src": "",
+      "design_intro": "A brief introduction about this section's design work. Section page is designed for documenting all the details of each section, including design features, reference links and other materials related to design this section's work.",
+      "design_img_src": "./asset/img/section_design.png",
       "design_url": "/project_section_design",
       "design_json": "/project_section_design.json",
-      "implementation_intro": "Implementation details of project section page.",
-      "implementation_img_src": "./asset/img/blob-implementation.png",
+      "implementation_intro": "A brief introduction about this section's implementation work. Project section page is implementaed with ReactJS, documentation, images and links are stored in asset folder. All related implementation materials and references are documented in this page.",
+      "implementation_img_src": "./asset/img/section_implementation.png",
       "implementation_url": "/project_section_implementation",
       "implementation_json": "/project_section_implementation.json"
     }
