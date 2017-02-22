@@ -7,15 +7,18 @@
       "title": "Design",
       "list": 
       [
-
-      ]
-    },
-
-    {
-      "title": "Reference",
-      "list": 
-      [
-
+        {
+          "title": "Left - Title and Index",
+          "img_src": "./asset/img/project_page_design_design_1.png",
+          "introduction": "Left section contains the title, subtitle and index list of all the sections' name. When click on the index, the right page scrolling down to the certain section.",
+          "link": "./asset/img/project_page_design_design_1.png"
+        },
+        {
+          "title": "Right - Section List",
+          "img_src": "./asset/img/project_page_design_design_2.png",
+          "introduction": "On the right are the introduction of this project and a list of all sections. Each section contains brief introductions and image thumbnails of this section's design and implementation work. Design / implementation title, image thumbnails and \"more...\" are clickable and link to section's detail page.",
+          "link": "./asset/img/project_page_design_design_2.png"
+        }
       ]
     }
   ]

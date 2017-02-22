@@ -4,10 +4,15 @@
   "section": 
   [
     {
-      "title": "Design",
+      "title": "Implementation",
       "list": 
       [
-
+        {
+          "title": "Framework - ReactJS",
+          "img_src": "./asset/img/project_page_implementation_implementation_1.png",
+          "introduction": "The project page is implemented by reactJS to creat template and interactions. All the details are loaded from asset with JSON, images, videos or other format docs.",
+          "link": "https://facebook.github.io/react/"
+        }
       ]
     },
 
@@ -15,7 +20,18 @@
       "title": "Reference",
       "list": 
       [
-
+        {
+          "title": "React Scroll",
+          "img_src": "./asset/img/project_page_implementation_reference_1.png",
+          "introduction": "#reactJS #npm #plugin",
+          "link": "https://github.com/fisshy/react-scroll"
+        },
+        {
+          "title": "Beginner’s Guide to React Router",
+          "img_src": "./asset/img/project_page_implementation_reference_2.jpeg",
+          "introduction": "#reactJS #router #nav",
+          "link": "https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.7r2c9cyph"
+        }
       ]
     }
   ]

@@ -8,35 +8,10 @@
       "list": 
       [
         {
-          "title": "State - Origin",
-          "img_src": "../asset/img/blob-implementation.png",
-          "introduction": "When not touching on the control panel, the control panel showing as a circle. It can be sticked around four corners of the device.",
-          "link": ""
-        },
-        {
-          "title": "State - Hold",
-          "img_src": "",
-          "introduction": "When user touch the control panel the blob shape control panel showing up, with menu button and alt button. User can drag and move around the blob control panel and switch to different control states.",
-          "link": ""
-        }
-      ]
-    },
-
-    {
-      "title": "Reference",
-      "list": 
-      [
-        {
-          "title": "(+) Metaball R + D",
-          "img_src": "../asset/img/blob_control/design_reference_1.gif",
-          "introduction": "#design #multi #animation",
-          "link": "https://dribbble.com/shots/2112964-Metaball-R-D"
-        },
-        {
-          "title": "(+) Metaball Fun Fluid",
-          "img_src": "../asset/img/blob_control/design_reference_2.gif",
-          "introduction": "#design #fluid #animation #gradient",
-          "link": "https://dribbble.com/shots/2729391-metaball-fun"
+          "title": "Not Yet",
+          "img_src": "../asset/img/logo.png",
+          "introduction": "Coming soon...",
+          "link": "yanlinghe.com"
         }
       ]
     }
