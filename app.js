@@ -37,15 +37,6 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-// import HomePageDesign from './asset/home_page_design.json';
-// import HomePageImplementation from './asset/home_page_implementation.json';
-// import ProjectPageDesign from './asset/project_page_design.json';
-// import ProjectPageImplementation from './asset/project_page_implementation.json';
-// import ProjectSectionDesign from './asset/project_section_design.json';
-// import ProjectSectionImplementation from './asset/project_section_implementation.json';
-
-var DataMap = [];
-
 var App = function (_Component) {
   _inherits(App, _Component);
 
@@ -75,14 +66,14 @@ var App = function (_Component) {
                     displayName: 'component',
 
                     render: function render() {
-                      return _react2.default.createElement(_Page2.default, { json: item.design_json });
+                      return _react2.default.createElement(_Page2.default, { data: item.design_json });
                     }
                   }) },
                 _react2.default.createElement(_reactRouter.IndexRoute, { component: _react2.default.createClass({
                     displayName: 'component',
 
                     render: function render() {
-                      return _react2.default.createElement(_Page2.default, { json: item.design_json });
+                      return _react2.default.createElement(_Page2.default, { data: item.design_json });
                     }
                   }) })
               ),
@@ -92,14 +83,14 @@ var App = function (_Component) {
                     displayName: 'component',
 
                     render: function render() {
-                      return _react2.default.createElement(_Page2.default, { json: item.implementation_json });
+                      return _react2.default.createElement(_Page2.default, { data: item.implementation_json });
                     }
                   }) },
                 _react2.default.createElement(_reactRouter.IndexRoute, { component: _react2.default.createClass({
                     displayName: 'component',
 
                     render: function render() {
-                      return _react2.default.createElement(_Page2.default, { json: item.implementation_json });
+                      return _react2.default.createElement(_Page2.default, { data: item.implementation_json });
                     }
                   }) })
               )
@@ -491,7 +482,7 @@ exports.default = _react2.default.createClass({
   displayName: 'Page',
   render: function render() {
 
-    var data = require(this.props.json);
+    // var data = require(this.props.json);
     return _react2.default.createElement(
       'div',
       { id: 'main-wrapper' },
@@ -501,9 +492,9 @@ exports.default = _react2.default.createClass({
         _react2.default.createElement(
           'h3',
           { className: 'session-content' },
-          data.title
+          this.props.data.title
         ),
-        data.section.map(function (item, i) {
+        this.props.data.section.map(function (item, i) {
           return _react2.default.createElement(
             'div',
             null,
@@ -630,11 +621,74 @@ module.exports={
       "design_intro": "A brief introduction about this section's design work. Design details of project W home page, including design ideas, how to use the home page and all related references about home page design.",
       "design_img_src": "./asset/img/home_design.png",
       "design_url": "/home_page_design",
-      "design_json": "./asset/home_page_design.json",
+      "design_json": 
+      {
+        "title": "Home Page - Design",
+        "introduction": "",
+        "section": 
+        [
+          {
+            "title": "Design",
+            "list": 
+            [
+              {
+                "title": "Not Yet",
+                "img_src": "../asset/img/logo.png",
+                "introduction": "Coming soon...",
+                "link": "yanlinghe.com"
+              }
+            ]
+          }
+        ]
+      },
       "implementation_intro": "A brief introduction about this section's implementation work. Implementation details of project W home page, including implementation platform, tools, and all related references about home page design.",
       "implementation_img_src": "./asset/img/home_implementation.png",
       "implementation_url": "/home_page_implementation",
-      "implementation_json": "./asset/home_page_implementation.json"
+      "implementation_json": 
+      {
+  "title": "Home Page - Implementation",
+  "introduction": "",
+  "section": 
+  [
+    {
+      "title": "Implementation",
+      "list": 
+      [
+        {
+          "title": "WebGL",
+          "img_src": "./asset/img/home_page_implementation_implementation_1.jpg",
+          "introduction": "Using WebGL to render animated cover page with my main projects' links as objects.",
+          "link": "./asset/img/project_page_design_design_1.png"
+        },
+        {
+          "title": "ThreeJS",
+          "img_src": "./asset/img/home_page_implementation_implementation_2.png",
+          "introduction": "Using ThreeJS to create the scene and animation for the cover page.",
+          "link": "./asset/img/project_page_design_design_2.png"
+        }
+      ]
+    },
+
+    {
+      "title": "Reference",
+      "list": 
+      [
+        {
+          "title": "React Scroll",
+          "img_src": "./asset/img/home_page_implementation_reference_1.jpg",
+          "introduction": "#webGL #api #javascript",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API"
+        },
+        {
+          "title": "three.js",
+          "img_src": "./asset/img/home_page_implementation_reference_2.png",
+          "introduction": "#threeJS #lib #javascript",
+          "link": "https://threejs.org/"
+        }
+      ]
+    }
+  ]
+}
     },
 
     {
@@ -642,11 +696,74 @@ module.exports={
       "design_intro": "A brief introduction about this section's design work. Project page is designed for documenting each project's features and progress. Index page on the left and details on the right.",
       "design_img_src": "./asset/img/page_design.jpg",
       "design_url": "/project_page_design",
-      "design_json": "./asset/project_page_design.json",
+      "design_json": 
+      {
+  "title": "Project Page - Design",
+  "introduction": "",
+  "section": 
+  [
+    {
+      "title": "Design",
+      "list": 
+      [
+        {
+          "title": "Left - Title and Index",
+          "img_src": "./asset/img/project_page_design_design_1.png",
+          "introduction": "Left section contains the title, subtitle and index list of all the sections' name. When click on the index, the right page scrolling down to the certain section.",
+          "link": "./asset/img/project_page_design_design_1.png"
+        },
+        {
+          "title": "Right - Section List",
+          "img_src": "./asset/img/project_page_design_design_2.png",
+          "introduction": "On the right are the introduction of this project and a list of all sections. Each section contains brief introductions and image thumbnails of this section's design and implementation work. Design / implementation title, image thumbnails and \"more...\" are clickable and link to section's detail page.",
+          "link": "./asset/img/project_page_design_design_2.png"
+        }
+      ]
+    }
+  ]
+},
       "implementation_intro": "A brief introduction about this section's implementation work. Using reactJS create webpage framework and interactions. Project details are all stored in asset as JSON, image or other format.",
       "implementation_img_src": "./asset/img/page_implementation.jpg",
       "implementation_url": "/project_page_implementation",
-      "implementation_json": "./asset/project_page_implementation.json"
+      "implementation_json": 
+      {
+  "title": "Project Page - Implementation",
+  "introduction": "",
+  "section": 
+  [
+    {
+      "title": "Implementation",
+      "list": 
+      [
+        {
+          "title": "Framework - ReactJS",
+          "img_src": "./asset/img/project_page_implementation_implementation_1.png",
+          "introduction": "The project page is implemented by reactJS to creat template and interactions. All the details are loaded from asset with JSON, images, videos or other format docs.",
+          "link": "https://facebook.github.io/react/"
+        }
+      ]
+    },
+
+    {
+      "title": "Reference",
+      "list": 
+      [
+        {
+          "title": "React Scroll",
+          "img_src": "./asset/img/project_page_implementation_reference_1.png",
+          "introduction": "#reactJS #npm #plugin",
+          "link": "https://github.com/fisshy/react-scroll"
+        },
+        {
+          "title": "Beginner’s Guide to React Router",
+          "img_src": "./asset/img/project_page_implementation_reference_2.jpeg",
+          "introduction": "#reactJS #router #nav",
+          "link": "https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.7r2c9cyph"
+        }
+      ]
+    }
+  ]
+}
     },
 
     {
@@ -654,11 +771,53 @@ module.exports={
       "design_intro": "A brief introduction about this section's design work. Section page is designed for documenting all the details of each section, including design features, reference links and other materials related to design this section's work.",
       "design_img_src": "./asset/img/section_design.png",
       "design_url": "/project_section_design",
-      "design_json": "./asset/project_section_design.json",
+      "design_json": {
+  "title": "Project Section Page - Design",
+  "introduction": "",
+  "section": 
+  [
+    {
+      "title": "Design",
+      "list": 
+      [
+        {
+          "title": "Left - Title and Index",
+          "img_src": "./asset/img/project_page_design_design_1.png",
+          "introduction": "Left section still remained same as project page with the title, subtitle and index list of all the sections' name. When click on the index, the right page scrolling down to the certain section.",
+          "link": "./asset/img/project_page_design_design_1.png"
+        },
+        {
+          "title": "Right - Section List",
+          "img_src": "./asset/img/section_page_design_design_1.png",
+          "introduction": "On the right are the title of this section and a list of details, including design, implementation details and reference and any useful links. Documentation and reference links are linked on the images.",
+          "link": "./asset/img/section_page_design_design_1.png"
+        }
+      ]
+    }
+  ]
+},
       "implementation_intro": "A brief introduction about this section's implementation work. Project section page is implementaed with ReactJS, documentation, images and links are stored in asset folder. All related implementation materials and references are documented in this page.",
       "implementation_img_src": "./asset/img/section_implementation.png",
       "implementation_url": "/project_section_implementation",
-      "implementation_json": "./asset/project_section_implementation.json"
+      "implementation_json": {
+  "title": "Project Section Page - Implementation",
+  "introduction": "",
+  "section": 
+  [
+    {
+      "title": "Implementation",
+      "list": 
+      [
+        {
+          "title": "Framework - ReactJS",
+          "img_src": "./asset/img/project_page_implementation_implementation_1.png",
+          "introduction": "The section page is also implemented by reactJS to creat template and interactions. All the details are loaded from asset with JSON, images, videos or other format docs.",
+          "link": "https://facebook.github.io/react/"
+        }
+      ]
+    }
+  ]
+}
     }
   ]
 }
