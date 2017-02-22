@@ -1,224 +1,68 @@
 {
-  "title": "Project W",
-  "subtitle": "Documentation for Project W",
+  "title": "Black Lion",
+  "subtitle": "Prototype doc for Black Lion project",
   "introduction": 
   [
     {
-      "title": "Project W",
-      "url": "yanlinghe.com",
-      "introduction": "The introduction and link for Project W. An easy and fast way to track my work and index any documents related."
+      "title": "Black Lion Project",
+      "url": "blacklion.corp.adobe.com",
+      "introduction": "Rebooting the Photoshop Experience. For the next generation of inputs, content and users."
     },
 
     {
-      "title": "Project Documents",
-      "url": "/",
-      "introduction": "The introduction of this webpage. The documentation website for recording details of Project X along the way. "
+      "title": "Prototyping Doc",
+      "url": "blacklion.corp.adobe.com",
+      "introduction": "Recording design, implementation details, roadmaps and learning references while building the prototype of Black Lion along the way."
     }
   ],
   "section": 
   [
     {
-      "title": "Home Page",
-      "design_intro": "A brief introduction about this section's design work. Design details of project W home page, including design ideas, how to use the home page and all related references about home page design.",
-      "design_img_src": "./asset/img/home_design.png",
-      "design_url": "/home_page_design",
-      "design_json": 
-      {
-        "title": "Home Page - Design",
-        "introduction": "",
-        "section": 
-        [
-          {
-            "title": "Design",
-            "list": 
-            [
-              {
-                "title": "Not Yet",
-                "img_src": "./asset/img/logo.png",
-                "introduction": "Coming soon...",
-                "link": "yanlinghe.com"
-              }
-            ]
-          }
-        ]
-      },
-      "implementation_intro": "A brief introduction about this section's implementation work. Implementation details of project W home page, including implementation platform, tools, and all related references about home page design.",
-      "implementation_img_src": "./asset/img/home_implementation.png",
-      "implementation_url": "/home_page_implementation",
-      "implementation_json": 
-      {
-  "title": "Home Page - Implementation",
-  "introduction": "",
-  "section": 
-  [
-    {
-      "title": "Implementation",
-      "list": 
-      [
-        {
-          "title": "WebGL",
-          "img_src": "./asset/img/home_page_implementation_implementation_1.jpg",
-          "introduction": "Using WebGL to render animated cover page with my main projects' links as objects.",
-          "link": "./asset/img/project_page_design_design_1.png"
-        },
-        {
-          "title": "ThreeJS",
-          "img_src": "./asset/img/home_page_implementation_implementation_2.png",
-          "introduction": "Using ThreeJS to create the scene and animation for the cover page.",
-          "link": "./asset/img/project_page_design_design_2.png"
-        }
-      ]
+      "title": "Layout",
+      "design_intro": "Layout design of photoshop user experience: tool bar design, layer bar design and control shortcuts design, including details, including images, videos animations, sketches and references of design inspirations.",
+      "design_img_src": "",
+      "design_url": "/layout_design",
+      "design_json": "/layout_design.json",
+      "implementation_intro": "Layout implementation details, including code structure, layout design details, sample code, screenshots, demo video recordings and so on. References of implementation learning links.",
+      "implementation_img_src": "",
+      "implementation_url": "/layout_implementation",
+      "implementation_json": "/layout_implementation.json"
     },
 
     {
-      "title": "Reference",
-      "list": 
-      [
-        {
-          "title": "React Scroll",
-          "img_src": "./asset/img/home_page_implementation_reference_1.jpg",
-          "introduction": "#webGL #api #javascript",
-          "link": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API"
-        },
-        {
-          "title": "three.js",
-          "img_src": "./asset/img/home_page_implementation_reference_2.png",
-          "introduction": "#threeJS #lib #javascript",
-          "link": "https://threejs.org/"
-        }
-      ]
-    }
-  ]
-}
+      "title": "Shortcut Work Flow",
+      "design_intro": "Shortcut control panel work flow design, including images, videos animations and so on. References of design inspiration links.",
+      "design_img_src": "",
+      "design_url": "/shortcut_work_flow_design",
+      "design_json": "/shortcut_work_flow_design.json",
+      "implementation_intro": "short cut work flow prototyping implementation details, including code structure, sample code, screenshots, demo video recordings and so on. References of implementation learning links.",
+      "implementation_img_src": "",
+      "implementation_url": "/shortcut_work_flow_implementation",
+      "implementation_json": "/shortcut_work_flow_implementation.json"
     },
 
     {
-      "title": "Project Page",
-      "design_intro": "A brief introduction about this section's design work. Project page is designed for documenting each project's features and progress. Index page on the left and details on the right.",
-      "design_img_src": "./asset/img/page_design.jpg",
-      "design_url": "/project_page_design",
-      "design_json": 
-      {
-  "title": "Project Page - Design",
-  "introduction": "",
-  "section": 
-  [
-    {
-      "title": "Design",
-      "list": 
-      [
-        {
-          "title": "Left - Title and Index",
-          "img_src": "./asset/img/project_page_design_design_1.png",
-          "introduction": "Left section contains the title, subtitle and index list of all the sections' name. When click on the index, the right page scrolling down to the certain section.",
-          "link": "./asset/img/project_page_design_design_1.png"
-        },
-        {
-          "title": "Right - Section List",
-          "img_src": "./asset/img/project_page_design_design_2.png",
-          "introduction": "On the right are the introduction of this project and a list of all sections. Each section contains brief introductions and image thumbnails of this section's design and implementation work. Design / implementation title, image thumbnails and \"more...\" are clickable and link to section's detail page.",
-          "link": "./asset/img/project_page_design_design_2.png"
-        }
-      ]
-    }
-  ]
-},
-      "implementation_intro": "A brief introduction about this section's implementation work. Using reactJS create webpage framework and interactions. Project details are all stored in asset as JSON, image or other format.",
-      "implementation_img_src": "./asset/img/page_implementation.jpg",
-      "implementation_url": "/project_page_implementation",
-      "implementation_json": 
-      {
-  "title": "Project Page - Implementation",
-  "introduction": "",
-  "section": 
-  [
-    {
-      "title": "Implementation",
-      "list": 
-      [
-        {
-          "title": "Framework - ReactJS",
-          "img_src": "./asset/img/project_page_implementation_implementation_1.png",
-          "introduction": "The project page is implemented by reactJS to creat template and interactions. All the details are loaded from asset with JSON, images, videos or other format docs.",
-          "link": "https://facebook.github.io/react/"
-        }
-      ]
+      "title": "Blob Control",
+      "design_intro": "Blob control design details, including images, videos animations and so on. References of design inspiration links.",
+      "design_img_src": "",
+      "design_url": "/blob_control_design",
+      "design_json": "/blob_control_design.json",
+      "implementation_intro": "Blob control prototyping implementation details, including code structure, rendering details, sample code, screenshots, video recordings and so on. References of implementation learning links.",
+      "implementation_img_src": "./asset/img/blob-implementation.png",
+      "implementation_url": "/blob_control_implementation",
+      "implementation_json": "/blob_control_implementation.json"
     },
 
     {
-      "title": "Reference",
-      "list": 
-      [
-        {
-          "title": "React Scroll",
-          "img_src": "./asset/img/project_page_implementation_reference_1.png",
-          "introduction": "#reactJS #npm #plugin",
-          "link": "https://github.com/fisshy/react-scroll"
-        },
-        {
-          "title": "Beginner’s Guide to React Router",
-          "img_src": "./asset/img/project_page_implementation_reference_2.jpeg",
-          "introduction": "#reactJS #router #nav",
-          "link": "https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669#.7r2c9cyph"
-        }
-      ]
-    }
-  ]
-}
-    },
-
-    {
-      "title": "Project Section Page",
-      "design_intro": "A brief introduction about this section's design work. Section page is designed for documenting all the details of each section, including design features, reference links and other materials related to design this section's work.",
-      "design_img_src": "./asset/img/section_design.png",
-      "design_url": "/project_section_design",
-      "design_json": {
-  "title": "Project Section Page - Design",
-  "introduction": "",
-  "section": 
-  [
-    {
-      "title": "Design",
-      "list": 
-      [
-        {
-          "title": "Left - Title and Index",
-          "img_src": "./asset/img/project_page_design_design_1.png",
-          "introduction": "Left section still remained same as project page with the title, subtitle and index list of all the sections' name. When click on the index, the right page scrolling down to the certain section.",
-          "link": "./asset/img/project_page_design_design_1.png"
-        },
-        {
-          "title": "Right - Section List",
-          "img_src": "./asset/img/section_page_design_design_1.png",
-          "introduction": "On the right are the title of this section and a list of details, including design, implementation details and reference and any useful links. Documentation and reference links are linked on the images.",
-          "link": "./asset/img/section_page_design_design_1.png"
-        }
-      ]
-    }
-  ]
-},
-      "implementation_intro": "A brief introduction about this section's implementation work. Project section page is implementaed with ReactJS, documentation, images and links are stored in asset folder. All related implementation materials and references are documented in this page.",
-      "implementation_img_src": "./asset/img/section_implementation.png",
-      "implementation_url": "/project_section_implementation",
-      "implementation_json": {
-  "title": "Project Section Page - Implementation",
-  "introduction": "",
-  "section": 
-  [
-    {
-      "title": "Implementation",
-      "list": 
-      [
-        {
-          "title": "Framework - ReactJS",
-          "img_src": "./asset/img/project_page_implementation_implementation_1.png",
-          "introduction": "The section page is also implemented by reactJS to creat template and interactions. All the details are loaded from asset with JSON, images, videos or other format docs.",
-          "link": "https://facebook.github.io/react/"
-        }
-      ]
-    }
-  ]
-}
+      "title": "Brush",
+      "design_intro": "Brush design details, including images, videos animations and so on. References of design inspiration links.",
+      "design_img_src": "",
+      "design_url": "/brush_design",
+      "design_json": "/brush_design.json",
+      "implementation_intro": "Brush implementation details, including code structure, rendering details, sample code, screenshots, video recordings and so on. References of technical learning links.",
+      "implementation_img_src": "",
+      "implementation_url": "/brush_implementation",
+      "implementation_json": "/brush_implementation.json"
     }
   ]
 }

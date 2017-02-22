@@ -635,7 +635,7 @@ module.exports={
                 "title": "Not Yet",
                 "img_src": "./asset/img/logo.png",
                 "introduction": "Coming soon...",
-                "link": "yanlinghe.com"
+                "link": "http://www.yanlinghe.com"
               }
             ]
           }
@@ -658,13 +658,13 @@ module.exports={
           "title": "WebGL",
           "img_src": "./asset/img/home_page_implementation_implementation_1.jpg",
           "introduction": "Using WebGL to render animated cover page with my main projects' links as objects.",
-          "link": "./asset/img/project_page_design_design_1.png"
+          "link": "./asset/img/home_page_implementation_implementation_1.jpg"
         },
         {
           "title": "ThreeJS",
           "img_src": "./asset/img/home_page_implementation_implementation_2.png",
           "introduction": "Using ThreeJS to create the scene and animation for the cover page.",
-          "link": "./asset/img/project_page_design_design_2.png"
+          "link": "./asset/img/home_page_implementation_implementation_2.png"
         }
       ]
     },
