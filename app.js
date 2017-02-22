@@ -633,7 +633,7 @@ module.exports={
             [
               {
                 "title": "Not Yet",
-                "img_src": "../asset/img/logo.png",
+                "img_src": "./asset/img/logo.png",
                 "introduction": "Coming soon...",
                 "link": "yanlinghe.com"
               }
