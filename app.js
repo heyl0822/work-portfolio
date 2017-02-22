@@ -37,6 +37,15 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+// import HomePageDesign from './asset/home_page_design.json';
+// import HomePageImplementation from './asset/home_page_implementation.json';
+// import ProjectPageDesign from './asset/project_page_design.json';
+// import ProjectPageImplementation from './asset/project_page_implementation.json';
+// import ProjectSectionDesign from './asset/project_section_design.json';
+// import ProjectSectionImplementation from './asset/project_section_implementation.json';
+
+var DataMap = [];
+
 var App = function (_Component) {
   _inherits(App, _Component);
 
@@ -482,7 +491,7 @@ exports.default = _react2.default.createClass({
   displayName: 'Page',
   render: function render() {
 
-    var data = require("./asset" + this.props.json);
+    var data = require(this.props.json);
     return _react2.default.createElement(
       'div',
       { id: 'main-wrapper' },
@@ -621,11 +630,11 @@ module.exports={
       "design_intro": "A brief introduction about this section's design work. Design details of project W home page, including design ideas, how to use the home page and all related references about home page design.",
       "design_img_src": "./asset/img/home_design.png",
       "design_url": "/home_page_design",
-      "design_json": "/home_page_design.json",
+      "design_json": "./asset/home_page_design.json",
       "implementation_intro": "A brief introduction about this section's implementation work. Implementation details of project W home page, including implementation platform, tools, and all related references about home page design.",
       "implementation_img_src": "./asset/img/home_implementation.png",
       "implementation_url": "/home_page_implementation",
-      "implementation_json": "/home_page_implementation.json"
+      "implementation_json": "./asset/home_page_implementation.json"
     },
 
     {
@@ -633,11 +642,11 @@ module.exports={
       "design_intro": "A brief introduction about this section's design work. Project page is designed for documenting each project's features and progress. Index page on the left and details on the right.",
       "design_img_src": "./asset/img/page_design.jpg",
       "design_url": "/project_page_design",
-      "design_json": "/project_page_design.json",
+      "design_json": "./asset/project_page_design.json",
       "implementation_intro": "A brief introduction about this section's implementation work. Using reactJS create webpage framework and interactions. Project details are all stored in asset as JSON, image or other format.",
       "implementation_img_src": "./asset/img/page_implementation.jpg",
       "implementation_url": "/project_page_implementation",
-      "implementation_json": "/project_page_implementation.json"
+      "implementation_json": "./asset/project_page_implementation.json"
     },
 
     {
@@ -645,11 +654,11 @@ module.exports={
       "design_intro": "A brief introduction about this section's design work. Section page is designed for documenting all the details of each section, including design features, reference links and other materials related to design this section's work.",
       "design_img_src": "./asset/img/section_design.png",
       "design_url": "/project_section_design",
-      "design_json": "/project_section_design.json",
+      "design_json": "./asset/project_section_design.json",
       "implementation_intro": "A brief introduction about this section's implementation work. Project section page is implementaed with ReactJS, documentation, images and links are stored in asset folder. All related implementation materials and references are documented in this page.",
       "implementation_img_src": "./asset/img/section_implementation.png",
       "implementation_url": "/project_section_implementation",
-      "implementation_json": "/project_section_implementation.json"
+      "implementation_json": "./asset/project_section_implementation.json"
     }
   ]
 }
